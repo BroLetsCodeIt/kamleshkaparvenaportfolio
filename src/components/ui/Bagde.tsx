@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 export const Badge = ({ text }: { text: string }) => {
   return (
     <a
-      href="https://www.producthunt.com/posts/awesome-framer-motion-components"
-      target="__blank"
+      href="/"
+      target="_self"
       className="bg-slate-900 no-underline group mb-8 cursor-pointer relative  shadow-2xl shadow-zinc-900 rounded-full p-px text-xs font-semibold leading-6  text-white inline-block mt-4"
     >
       <span className="absolute inset-0 overflow-hidden rounded-full">
