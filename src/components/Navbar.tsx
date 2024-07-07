@@ -31,7 +31,8 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="pt-2 flex items-center justify-between">
+    
+      <nav className="pt-2 flex items-center justify-evenly top-0 w-[100%] text-center fixed  z-[50] mb-[2rem] bg-white/[0.2]inset-x-0">
         {/* left division */}
         <div>
           <Badge text="Kamlesh Kaparvena"/>
@@ -87,6 +88,7 @@ const Navbar = () => {
           
         </div>
       </nav>
+ 
     </>
   );
 };

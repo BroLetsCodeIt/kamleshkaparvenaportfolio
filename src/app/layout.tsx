@@ -6,6 +6,8 @@ import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import { AnimatePresence } from "framer-motion";
 import TransitionProvider from "@/components/transitionProvider";
+import Footer from "@/components/Footer";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -22,7 +24,6 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <TransitionProvider >
-          
           {children}
         </TransitionProvider>
       </body>
