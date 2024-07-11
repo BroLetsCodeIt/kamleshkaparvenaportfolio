@@ -32,7 +32,7 @@ const Navbar = () => {
   return (
     <>
     
-      <nav className="pt-2 flex items-center justify-evenly top-0 w-[100%] text-center fixed  z-[50] mb-[2rem] bg-white/[0.2]inset-x-0">
+      <nav className="py-1 flex items-center justify-evenly top-0 w-[100%] text-center fixed  z-[50] mb-[2rem]  inset-x-0  bg-transparent  backdrop-blur-2xl">
         {/* left division */}
         <Link href={'/'}>
           {/* <Badge text="Kamlesh Kaparvena"/> */}

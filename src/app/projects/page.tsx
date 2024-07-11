@@ -33,6 +33,7 @@ import { ThreeDCardDemo } from "@/components/smallui/hovercard";
 import { CardItem } from "@/components/ui/3d-card";
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 import Link from "next/link";
+import Footer from "@/components/Footer";
 
 const MovingLine = () => {
   const transition = {
@@ -117,18 +118,20 @@ const MovingLine = () => {
           projectdescription="Rust"
           projectimages={rustimages}
         />
-        <Content
+        {/* <Content
           projectname="Mobile Application"
           projectdescription="React Native"
           projectimages={mobileimages}
-        />
-        <Content
+        /> */}
+        {/* <Content
           projectname="DevOps Projects"
           projectdescription="DevOps , Docker , Kubernetes"
           projectimages={devopsimages}
-        />
+        /> */}
+       <Footer/>
       </div>
     </div>
+    
   );
 };
 
@@ -137,146 +140,113 @@ const fullstackimages = [
     imag: "/expense_tracker.png",
     desc: "Expense Tracker",
     name: ["NextJS","TailwindCSS","Neon","Postgresql", "Drizzle ORM"],
-    live : "https://github.com/BroLetsCodeIt",
-    githublink : ""
+    live : "https://github.com/BroLetsCodeIt/Expense_Tracker",
+    githublink : "https://github.com/BroLetsCodeIt/Expense_Tracker"
   },
   {
     imag: "/code_collab.jpg",
     desc: "CodeCollab.io",
     name: ["Socket.io","ReactJS","TailwindCSS","Vite"],
-    live : "",
-    githublink : ""
+    live : "https://github.com/BroLetsCodeIt/CodeCollab.io_new",
+    githublink : "https://github.com/BroLetsCodeIt/CodeCollab.io_new"
   },
   {
     imag: "/figletlogo.png",
     desc: "Fitness Web App",
     name: ["ReactJS","TailwindCSS","ChartJS"],
-    live : "",
-    githublink : ""
+    live : "https://github.com/BroLetsCodeIt/Fitness_Web_application",
+    githublink : "https://github.com/BroLetsCodeIt/Fitness_Web_application"
   },
 ];
 
 const frontendimages = [
   {
-    imag: "/myimag01.webp",
-    desc: "Rejoice",
-    name: ["HTML","CSS","JS","GSAP","Locomotive"],
-    live : "",
-    githublink : ""
+    imag:"/ksham.png",
+    desc : "Ksham Innovation",
+    name : ["NextJS","TailwindCSS","TypeScript"],
+    live : "https://broletscodeit.github.io/Ksham_Innovation_Website_using_NextJS/",
+    githublink : "https://github.com/BroLetsCodeIt/Ksham_Innovation_Website_using_NextJS"
   },
   {
-    imag: "/myimag01.webp",
+    imag: "/rejouice.png",
+    desc: "Rejouice",
+    name: ["HTML","CSS","JS","GSAP","Locomotive"],
+    live : "https://broletscodeit.github.io/Rejouice_Frontend_Clone/",
+    githublink : "https://github.com/BroLetsCodeIt/Rejouice_Frontend_Clone"
+  },
+  {
+    imag: "/miranda.png",
     desc: "Miranda",
     name: ["HTML","CSS","JS","GSAP","Locomotive"],
-    live : "",
-    githublink : ""
+    live : "https://broletscodeit.github.io/Frontend_Clone_Miranda/",
+    githublink : "https://github.com/BroLetsCodeIt/Frontend_Clone_Miranda"
   },
   {
-    imag: "/myimag01.webp",
+    imag: "/equilibrium.png",
     desc: "Equilibrium",
     name: ["HTML","CSS","JS","GSAP","Locomotive"],
-    live : "",
-    githublink : ""
+    live : "https://broletscodeit.github.io/Equilibrium_Website_Clone/",
+    githublink : "https://github.com/BroLetsCodeIt/Equilibrium_Website_Clone"
   },
 ];
 const pythonimages = [
   {
-    imag: "/myimag01.webp",
+    imag: "/ims.png",
     desc: "IMS",
     name: ["Tkinter","Custom Tkinter","Python","Sales"],
-    live : "",
-    githublink : ""
+    live : "https://github.com/BroLetsCodeIt/Inventory_management_system",
+    githublink : "https://github.com/BroLetsCodeIt/Inventory_management_system"
   },
   {
-    imag: "/myimag01.webp",
-    desc: "Friends Finder",
+    imag: "/friends.png",
+    desc: "CRUD App",
     name: ["ReactJS","TailwindCSS","Flask","Sqlite"],
-    live : "",
-    githublink : ""
+    live : "https://github.com/BroLetsCodeIt/Friends-Application-using-Flask-and-React",
+    githublink : "https://github.com/BroLetsCodeIt/Friends-Application-using-Flask-and-React"
   },
   {
-    imag: "/myimag01.webp",
+    imag: "/image_edit.png",
     desc: "Image Edit",
     name: ["ReactJS","TailwindCSS","Flask"],
-    live : "",
-    githublink : ""
+    live : "https://github.com/BroLetsCodeIt/Image-Edit-using-Flask",
+    githublink : "https://github.com/BroLetsCodeIt/Image-Edit-using-Flask"
   },
   
 ];
 
 const rustimages = [
   {
-    imag: "/myimag01.webp",
-    desc: "Rust Game",
+    imag: "/code_collab.jpg",
+    desc: "Guess Game",
     name: ["Rust","Terminal"],
-    live : "",
-    githublink : ""
+    live : "https://github.com/BroLetsCodeIt/Guess_Game",
+    githublink : "https://github.com/BroLetsCodeIt/Guess_Game"
   },
  
 ];
 
-const mobileimages = [
-  {
-    imag: "/myimag01.webp",
-    desc: "Travel Go",
-    name: ["React Native","TailwindCSS","Clerk"],
-    live : "",
-    githublink : ""
-  },
+// const mobileimages = [
+//   {
+//     imag: "/myimag01.webp",
+//     desc: "Travel Go",
+//     name: ["React Native","TailwindCSS","Clerk"],
+//     live : "",
+//     githublink : ""
+//   },
   
-];
+// ];
 
-const devopsimages = [
-  {
-    imag: "/myimag01.webp",
-    desc: "Fitness Web App",
-    name: ["ReactJS","TailwindCSS","ChartJS"],
-    live : "",
-    githublink : ""
-  },
-  {
-    imag: "/myimag01.webp",
-    desc: "Fitness Web App",
-    name: ["ReactJS","TailwindCSS","ChartJS"],
-    live : "",
-    githublink : ""
-  },
-  {
-    imag: "/myimag01.webp",
-    desc: "Fitness Web App",
-    name: ["ReactJS","TailwindCSS","ChartJS"],
-    live : "",
-    githublink : ""
-  },
-  {
-    imag: "/myimag01.webp",
-    desc: "Fitness Web App",
-    name: ["ReactJS","TailwindCSS","ChartJS"],
-    live : "",
-    githublink : ""
-  },
-  {
-    imag: "/myimag01.webp",
-    desc: "Fitness Web App",
-    name: ["ReactJS","TailwindCSS","ChartJS"],
-    live : "",
-    githublink : ""
-  },
-  {
-    imag: "/myimag01.webp",
-    desc: "Fitness Web App",
-    name: ["ReactJS","TailwindCSS","ChartJS"],
-    live : "",
-    githublink : ""
-  },
-  {
-    imag: "/myimag01.webp",
-    desc: "Fitness Web App",
-    name: ["ReactJS","TailwindCSS","ChartJS"],
-    live : "",
-    githublink : ""
-  },
-];
+// const devopsimages = [
+  
+//   {
+//     imag: "/myimag01.webp",
+//     desc: "Fitness Web App",
+//     name: ["ReactJS","TailwindCSS","ChartJS"],
+//     live : "",
+//     githublink : ""
+//   },
+// ];
+
 export default MovingLine;
 
 const Content = (props: {
@@ -338,8 +308,8 @@ const Content = (props: {
                   </div>
                 </CardContent>
                 <CardFooter className="flex justify-between">
-                  <Link className="bg-gray-100 px-3 py-1 rounded-md text-sm dark:bg-gray-800" href={val.live}>Live Demo</Link>
-                  <Link className="bg-gray-900 text-white px-4 py-1 rounded-md text-sm" href={val.githublink}>Github</Link>
+                  <Link className="bg-gray-100 px-3 py-1 rounded-md text-sm dark:bg-gray-800" href={val.live} target="_blank">Live Demo</Link>
+                  <Link className="bg-gray-900 text-white px-4 py-1 rounded-md text-sm" href={val.githublink} target="_blank">Github</Link>
                   {/* <Button variant="outline" className="text-sm">Live Demo</Button> */}
                   {/* <Button className="text-sm">Github</Button> */}
                 </CardFooter>

@@ -45,7 +45,7 @@ const Landing = () => {
             <div className="flex flex-col">
               <span>Software Engineer building SaaS Product and Web Apps.</span>
               <span>
-                Find 🔎 me on <Link href={'/'} target="_blank" className="font-bold">YouTube</Link> for Coding and Algorithms.
+                Find 🔎 me on <Link href={'https://www.youtube.com/@Kam_717'} target="_blank" className="font-bold">YouTube</Link> for Coding and Algorithms.
               </span>
             </div>
           </div>
@@ -74,7 +74,7 @@ const Landing = () => {
                 Convert the ordinary text into some fancy ASCII Characters.
               </small>
             </div>
-           <Link href={'/'}>
+           <Link href={'https://www.youtube.com/watch?v=WhYOzx-qw68'} target="_blank">
             <p className="animate-pulse hover:-rotate-45 cursor-pointer duration-1000">
               <IconSquareRoundedArrowRight size={30} />
             </p>
@@ -156,7 +156,7 @@ const Landing = () => {
           <div className="flex flex-col items-center justify-between gap-4">
             <Techvideos />
           </div>
-          <Link className="flex items-center justify-center pt-7 gap-2" href={'/'}>
+          <Link className="flex items-center justify-center pt-7 gap-2" href={'/videos'}>
             See all Videos{" "}
             <svg
               width="15"

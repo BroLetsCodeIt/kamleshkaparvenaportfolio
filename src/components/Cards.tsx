@@ -159,6 +159,7 @@ const UpcomingCards = () => {
                     🌐 Live Demo
                   </Link> */}
                   <Link
+                    target="_blank"
                     href={val.githublink}
                     className="px-1 py-0.5 border border-gray-200/40 rounded-md text-sm"
                   >
