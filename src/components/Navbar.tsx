@@ -34,9 +34,10 @@ const Navbar = () => {
     
       <nav className="pt-2 flex items-center justify-evenly top-0 w-[100%] text-center fixed  z-[50] mb-[2rem] bg-white/[0.2]inset-x-0">
         {/* left division */}
-        <div>
-          <Badge text="Kamlesh Kaparvena"/>
-        </div>
+        <Link href={'/'}>
+          {/* <Badge text="Kamlesh Kaparvena"/> */}
+          <p className="bg-gray-100/5 px-2 py-1 rounded-md font-semibold shadow-sm border-2 border-gray-100/10">Kamlesh kaparvena {">"}</p>
+        </Link>
 
         {/* right division */}
         <div className="flex items-center justify-between gap-6">

@@ -112,7 +112,7 @@ const Contact = () => {
   };
 
   return (
-    <Card className="w-full">
+    <Card className="w-full  mt-20 ">
       <CardHeader>
         <CardTitle>Have a Question ? Drop in your message 👇🏻</CardTitle>
         <CardDescription>
@@ -168,7 +168,7 @@ const Contact = () => {
             {/* <Button variant="outline">Cancel</Button> */}
             <button
               type="submit"
-              className="bg-black  text-white border border-gray-700 p-1 rounded-md px-3 font-inter font-semibold"
+              className="bg-black  text-white border border-gray-700 p-1 rounded-md px-3 font-inter font-semibold dark:bg-gray-900"
              
             >
               Submit

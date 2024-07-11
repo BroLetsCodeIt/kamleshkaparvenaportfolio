@@ -11,6 +11,7 @@ import { Badge } from "./ui/Bagde";
 import { SparklesPreview } from "./SparklePreview";
 import Bot from "./smallui/Bot";
 import { Toaster } from "./ui/toaster";
+import Footer from "./Footer";
 
 interface childrenProps {
   children : React.ReactNode
@@ -28,7 +29,7 @@ const TransitionProvider = ({children}:childrenProps) => {
   return (
     <>
       <AnimatePresence>
-        <div className="fixed bottom-0 sm:block right-0  border-2 border-gray-200 rounded-full flex items-center justify-center p-2 mr-6 mb-6">
+        <div className="fixed bottom-0 right-0  border-2 border-gray-200 rounded-full flex items-center justify-center  mr-6 mb-6 w-16 h-16 dark:border-gray-700">
           <Bot/>
         </div>
        
@@ -72,6 +73,7 @@ const TransitionProvider = ({children}:childrenProps) => {
             <Navbar/>
             {children}
             <Toaster/>
+          
           </ThemeProvider>
         </motion.div>
       </AnimatePresence>

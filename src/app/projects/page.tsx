@@ -32,6 +32,7 @@ import {
 import { ThreeDCardDemo } from "@/components/smallui/hovercard";
 import { CardItem } from "@/components/ui/3d-card";
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
+import Link from "next/link";
 
 const MovingLine = () => {
   const transition = {
@@ -53,7 +54,7 @@ const MovingLine = () => {
   const PATH = "M0.5 0.980671L0.5 1566.02";
   return (
     <div
-      className="max-w-7xl mx-auto flex flex-row space-x-10 items-start w-full "
+      className="max-w-7xl mx-auto flex flex-row space-x-10 items-start w-full mt-40 "
       ref={ref}
     >
       <svg
@@ -99,6 +100,7 @@ const MovingLine = () => {
           projectname="Full Stack Projects"
           projectdescription="ReactJS , NextJS , TailwindCSS , FramerMotion"
           projectimages={fullstackimages}
+          
         />
         <Content
           projectname="Frontend Projects"
@@ -132,123 +134,147 @@ const MovingLine = () => {
 
 const fullstackimages = [
   {
-    imag: "/myimag01.webp",
-    desc: "Fitness Web App",
-    name: "ReactJS,TailwindCSS,ChartJS",
+    imag: "/expense_tracker.png",
+    desc: "Expense Tracker",
+    name: ["NextJS","TailwindCSS","Neon","Postgresql", "Drizzle ORM"],
+    live : "https://github.com/BroLetsCodeIt",
+    githublink : ""
   },
   {
-    imag: "/myimag01.webp",
-    desc: "Fitness Web App",
-    name: "ReactJS,TailwindCSS,ChartJS",
+    imag: "/code_collab.jpg",
+    desc: "CodeCollab.io",
+    name: ["Socket.io","ReactJS","TailwindCSS","Vite"],
+    live : "",
+    githublink : ""
   },
   {
-    imag: "/myimag01.webp",
+    imag: "/figletlogo.png",
     desc: "Fitness Web App",
-    name: "ReactJS,TailwindCSS,ChartJS",
+    name: ["ReactJS","TailwindCSS","ChartJS"],
+    live : "",
+    githublink : ""
   },
 ];
 
 const frontendimages = [
   {
     imag: "/myimag01.webp",
-    desc: "Fitness Web App",
-    name: "ReactJS,TailwindCSS,ChartJS",
+    desc: "Rejoice",
+    name: ["HTML","CSS","JS","GSAP","Locomotive"],
+    live : "",
+    githublink : ""
   },
   {
     imag: "/myimag01.webp",
-    desc: "Fitness Web App",
-    name: "ReactJS,TailwindCSS,ChartJS",
+    desc: "Miranda",
+    name: ["HTML","CSS","JS","GSAP","Locomotive"],
+    live : "",
+    githublink : ""
   },
   {
     imag: "/myimag01.webp",
-    desc: "Fitness Web App",
-    name: "ReactJS,TailwindCSS,ChartJS",
+    desc: "Equilibrium",
+    name: ["HTML","CSS","JS","GSAP","Locomotive"],
+    live : "",
+    githublink : ""
   },
 ];
 const pythonimages = [
   {
     imag: "/myimag01.webp",
-    desc: "Fitness Web App",
-    name: "ReactJS,TailwindCSS,ChartJS",
+    desc: "IMS",
+    name: ["Tkinter","Custom Tkinter","Python","Sales"],
+    live : "",
+    githublink : ""
   },
   {
     imag: "/myimag01.webp",
-    desc: "Fitness Web App",
-    name: "ReactJS,TailwindCSS,ChartJS",
+    desc: "Friends Finder",
+    name: ["ReactJS","TailwindCSS","Flask","Sqlite"],
+    live : "",
+    githublink : ""
   },
+  {
+    imag: "/myimag01.webp",
+    desc: "Image Edit",
+    name: ["ReactJS","TailwindCSS","Flask"],
+    live : "",
+    githublink : ""
+  },
+  
 ];
 
 const rustimages = [
   {
     imag: "/myimag01.webp",
-    desc: "Fitness Web App",
-    name: "ReactJS,TailwindCSS,ChartJS",
+    desc: "Rust Game",
+    name: ["Rust","Terminal"],
+    live : "",
+    githublink : ""
   },
-  {
-    imag: "/myimag01.webp",
-    desc: "Fitness Web App",
-    name: "ReactJS,TailwindCSS,ChartJS",
-  },
-  {
-    imag: "/myimag01.webp",
-    desc: "Fitness Web App",
-    name: "ReactJS,TailwindCSS,ChartJS",
-  },
+ 
 ];
 
 const mobileimages = [
   {
     imag: "/myimag01.webp",
-    desc: "Fitness Web App",
-    name: "ReactJS,TailwindCSS,ChartJS",
+    desc: "Travel Go",
+    name: ["React Native","TailwindCSS","Clerk"],
+    live : "",
+    githublink : ""
   },
-  {
-    imag: "/myimag01.webp",
-    desc: "Fitness Web App",
-    name: "ReactJS,TailwindCSS,ChartJS",
-  },
-  {
-    imag: "/myimag01.webp",
-    desc: "Fitness Web App",
-    name: "ReactJS,TailwindCSS,ChartJS",
-  },
+  
 ];
 
 const devopsimages = [
   {
     imag: "/myimag01.webp",
     desc: "Fitness Web App",
-    name: "ReactJS,TailwindCSS,ChartJS",
+    name: ["ReactJS","TailwindCSS","ChartJS"],
+    live : "",
+    githublink : ""
   },
   {
     imag: "/myimag01.webp",
     desc: "Fitness Web App",
-    name: "ReactJS,TailwindCSS,ChartJS",
+    name: ["ReactJS","TailwindCSS","ChartJS"],
+    live : "",
+    githublink : ""
   },
   {
     imag: "/myimag01.webp",
     desc: "Fitness Web App",
-    name: "ReactJS,TailwindCSS,ChartJS",
+    name: ["ReactJS","TailwindCSS","ChartJS"],
+    live : "",
+    githublink : ""
   },
   {
     imag: "/myimag01.webp",
     desc: "Fitness Web App",
-    name: "ReactJS,TailwindCSS,ChartJS",
+    name: ["ReactJS","TailwindCSS","ChartJS"],
+    live : "",
+    githublink : ""
   },
   {
     imag: "/myimag01.webp",
     desc: "Fitness Web App",
-    name: "ReactJS,TailwindCSS,ChartJS",
+    name: ["ReactJS","TailwindCSS","ChartJS"],
+    live : "",
+    githublink : ""
   },
   {
     imag: "/myimag01.webp",
     desc: "Fitness Web App",
-    name: "ReactJS,TailwindCSS,ChartJS",
+    name: ["ReactJS","TailwindCSS","ChartJS"],
+    live : "",
+    githublink : ""
   },
   {
     imag: "/myimag01.webp",
     desc: "Fitness Web App",
-    name: "ReactJS,TailwindCSS,ChartJS",
+    name: ["ReactJS","TailwindCSS","ChartJS"],
+    live : "",
+    githublink : ""
   },
 ];
 export default MovingLine;
@@ -256,17 +282,19 @@ export default MovingLine;
 const Content = (props: {
   projectname: string;
   projectdescription: string;
-  projectimages: { imag: string; desc: string; name: string }[];
+  projectimages: { imag: string; desc: string; name: string[] ; live : string ;
+    githublink : string;}[];
+ 
 }) => {
   return (
-    <div className=" w-full mb-10 overflow-auto ">
+    <div className=" w-full mb-10 overflow-auto">
       <p className="text-3xl font-bold text-black dark:text-white">
         {props.projectname}
       </p>
       <p className="text-base font-normal text-neutral-500 dark:text-[#CBCCCD] ">
         {props.projectdescription}
       </p>
-      <div className="w-full overflow-scroll flex  gap-3  " >
+      <div className="w-full overflow-scroll flex  gap-3" >
         {/* <div className="rounded-md bg-gradient-to-tr from-slate-800 to-slate-700 mt-4 "> */}
 
         {props.projectimages.map((val, key) => {
@@ -283,10 +311,20 @@ const Content = (props: {
             className="mt-4 rounded-md cursor-pointer hover:shadow-lg inset-2"
             />  */}
 
-              <Card className="min-w-[350px] mt-4 " key={key}>
+              <Card className="min-w-[350px] mt-4 max-w-[350px] flex flex-col justify-between" key={key}>
                 <CardHeader>
                   <CardTitle>{val.desc}</CardTitle>
-                  <CardDescription>{val.name}</CardDescription>
+                  <div  className="flex gap-2  flex-wrap">
+                  {
+                    val.name.map((na , ind) => {
+                       return(
+
+                          <CardDescription key={ind} className="bg-gray-50 px-1 rounded-sm text-[0.8rem] dark:bg-gray-900">{na}</CardDescription>
+                        )
+                      })
+                    }
+                    </div>
+                  
                 </CardHeader>
                 <CardContent>
                   <div className="w-full items-center gap-4">
@@ -295,13 +333,15 @@ const Content = (props: {
                       width={300}
                       height={300}
                       alt="im"
-                      className="mt-4 rounded-md cursor-pointer hover:shadow-lg inset-2"
+                      className="rounded-md cursor-pointer hover:shadow-lg inset-2 dark:opacity-70"
                     />
                   </div>
                 </CardContent>
                 <CardFooter className="flex justify-between">
-                  <Button variant="outline">Live Demo</Button>
-                  <Button>Github</Button>
+                  <Link className="bg-gray-100 px-3 py-1 rounded-md text-sm dark:bg-gray-800" href={val.live}>Live Demo</Link>
+                  <Link className="bg-gray-900 text-white px-4 py-1 rounded-md text-sm" href={val.githublink}>Github</Link>
+                  {/* <Button variant="outline" className="text-sm">Live Demo</Button> */}
+                  {/* <Button className="text-sm">Github</Button> */}
                 </CardFooter>
               </Card>
             </>

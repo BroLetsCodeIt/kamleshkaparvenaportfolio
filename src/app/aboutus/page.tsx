@@ -1,14 +1,15 @@
 import React from 'react'
 import Image from 'next/image'
+import Footer from '@/components/Footer'
 
 const Aboutus = () => {
 
   return (
    <>
-     {/* <section className="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-white dark:bg-dark"> */}
-        {/* <div className="container mx-auto"> */}
-          <div className="flex flex-wrap items-center justify-between -mx-4">
-            <div className="w-full px-4 lg:w-6/12">
+     <section className="overflow-hidden  pb-12 lg:pt-[120px] lg:pb-[90px]  mt-20">
+        <div className="container mx-auto items-center flex flex-col  w-full">
+          <div className="flex flex-wrap items-center justify-around -mx-2 ">
+            <div className="w-full px-4 lg:w-6/12 ">
               <div className="flex items-center -mx-3 sm:-mx-4">
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="py-3 sm:py-4">
@@ -616,10 +617,10 @@ const Aboutus = () => {
 
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
               <div className="mt-10 lg:mt-0">
-                <span className="block mb-4 text-lg font-semibold text-primary">
-                  Web Developer 💻
+                <span className="block mb-4 text-lg font-semibold text-primary tracking-tighter">
+                  Frontend Developer 💻
                 </span>
-                <h2 className="mb-5 text-3xl font-bold text-dark dark:text-white sm:text-[40px]/[48px]">
+                <h2 className="mb-5 text-3xl font-bold text-dark dark:text-white sm:text-[40px]/[48px] tracking-tighter">
                   Hi Everyone 👋 , My Name is Kamlesh Kaparvena.
                 </h2>
                 <p className="mb-5 text-base text-body-color dark:text-dark-6">
@@ -638,8 +639,9 @@ const Aboutus = () => {
               </div>
             </div>
           </div>
-        {/* </div> */}
-      {/* </section> */}
+          <Footer/>
+        </div>
+      </section>
    </>
   )
 }
