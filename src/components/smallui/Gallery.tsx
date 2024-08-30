@@ -25,7 +25,7 @@ const Gallery = () => {
          <li>
             <Link href="/aboutus" className="flex items-center  text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group bg-gray-200/10 border-2 border-gray-100 dark:border-gray-800 dark:bg-gray-900 py-1">
                
-               <span className="flex-1 ms-3 whitespace-nowrap">About Us</span>
+               <span className="flex-1 ms-3 whitespace-nowrap">About Me</span>
                
             </Link>
          </li>
