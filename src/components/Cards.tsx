@@ -10,7 +10,7 @@ const cardvalues = [
     projectdescription: "It is a user-friendly web application designed to track the expenses. Users can create the budgets & add expenses accordingly. Users can delete & update the budgets.",
     projecttags: ["TypeScript", "NextJS", "Neon", "ReactJS","DrizzleORM"],
     githublink: "https://github.com/BroLetsCodeIt/Expense_Tracker",
-    livedemolink: "https://github.com/BroLetsCodeIt/Expense_Tracker",
+    livedemolink: "https://expense-tracker-fawn-two.vercel.app/",
   },
   {
     projectimg: "/code_collab.jpg",
