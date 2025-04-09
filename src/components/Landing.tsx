@@ -45,7 +45,7 @@ const Landing = () => {
             <div className="flex flex-col">
               <span>Software Engineer building SaaS Product and Web Apps.</span>
               <span>
-                Find 🔎 me on <Link href={'https://www.youtube.com/@Kam_717'} target="_blank" className="font-bold">YouTube</Link> for Coding and Algorithms.
+                Find 🔎 me on <Link href={'https://www.youtube.com/@Coding-Edu'} target="_blank" className="font-bold">YouTube</Link> for Coding and Algorithms.
               </span>
             </div>
           </div>
