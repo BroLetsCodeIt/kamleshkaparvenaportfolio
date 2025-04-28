@@ -128,7 +128,7 @@ const LifeChangelog = () => {
         return (
           
           <>
-            <div className="border-b-2 border-gray-200/20 rounded-md p-2 pb-4 pl-0  w-full flex flex-col gap-4 " key={ind}>
+            <div className="border-b-2 border-gray-200/20 dark:border-gray-800/40 rounded-md p-2 pb-4 pl-0  w-full flex flex-col gap-4 " key={ind}>
               <h1 className="text-xl font-bold">{val.year}</h1>
 
               <div className="flex flex-col gap-2 pl-3">
@@ -149,7 +149,7 @@ const LifeChangelog = () => {
                       </svg>
                       <span className="font-semibold ">{headval.key}</span>
                     </p>
-                    <div className="flex flex-col pl-7 text-gray-600 dark:text-[#A1A19A]">
+                    <div className="flex flex-col pl-7 text-gray-600 dark:text-[#A1A19A] text-sm">
                       <p>{headval.value}</p>
                     </div>
                   </div>
@@ -173,7 +173,7 @@ const LifeChangeLogRemaining = () => {
        return (
          
          <>
-           <div className="border-b-2 border-gray-200 rounded-md p-2 pl-0  w-full flex flex-col gap-4 dark:border-gray-800 pb-4" key={ind}>
+           <div className="border-b-2 border-gray-200/20 rounded-md p-2 pl-0  w-full flex flex-col gap-4 dark:border-gray-800/40 pb-4" key={ind}>
              <h1 className="text-xl font-bold">{val.year}</h1>
 
              <div className="flex flex-col gap-2 pl-3">
@@ -194,7 +194,7 @@ const LifeChangeLogRemaining = () => {
                      </svg>
                      <span className="font-semibold ">{headval.key}</span>
                    </p>
-                   <div className="flex flex-col pl-7 text-gray-600 dark:text-[#A1A19A]">
+                   <div className="flex flex-col pl-7 text-gray-600 dark:text-[#A1A19A] text-sm">
                      <p>{headval.value}</p>
                    </div>
                  </div>

@@ -64,9 +64,11 @@ const Cards = () => {
       {cardvalues.map((val, ind) => {
         return (
           <div
-            className="border-2 border-gray-200/20 rounded-md p-2 pb-4 flex flex-col gap-4 w-full min-h-3 hover:border-gray-200/40 dark:border-gray-900 "
+            className="relative border-2 border-gray-200/20 rounded-md p-2 pb-4 flex flex-col gap-4 w-full min-h-3 hover:border-gray-200/40 dark:border-gray-900 "
             key={ind}
           >
+            <span className="absolute w-[40%] -bottom-px right-px h-px bg-gradient-to-r from-blue-500/0 via-blue-500/40 to-blue-500/0 dark:from-blue-400/0 dark:via-blue-400/40 dark:to-blue-400/0"></span>
+            <span className="absolute w-px -left-px top-[50%] h-[40%] bg-gradient-to-b from-blue-500/0 via-blue-500/40 to-blue-500/0 dark:from-blue-400/0 dark:via-blue-400/40 dark:to-blue-400/0"></span>
             <div className="pl-4 pt-1">
               <Image
                 alt="img"

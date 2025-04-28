@@ -25,13 +25,13 @@ const Techvideos = () => {
       {techvideos.map((val, ind) => {
         return (
           <div
-            className="border-2 border-gray-200/20 rounded-md p-2 pb-4 w-full flex flex-row  items-center justify-between  gap-4 hover:border-gray-200/40 dark:border-gray-900 dark:hover:border-gray-800"
+            className="border-2 border-gray-200/20 rounded-md p-2  w-full flex flex-row  items-center justify-between  gap-4 hover:border-gray-200/40 dark:border-gray-900 dark:hover:border-gray-800"
             key={ind}
           >
            
             <div className='flex flex-col items-start justify-between gap-1'>
-              <h1 className="text-2xl font-bold ">{val.projectname}</h1>
-              <p className='text-sm'>{val.projectdescription}</p>
+              <h1 className="text-l font-bold ">{val.projectname}</h1>
+              <p className='text-sm'>{val.projectdescription}.</p>
               <div className="flex flex-wrap gap-2">
                 {val.projecttags.map((tagval, tagind) => {
                   return (
